@@ -28,7 +28,7 @@ dta_gen=function(n){
   psi1=-1.2
   psi2=8
   
-  # Model Speicfication and Outcome generation
+  # Model Specification and Outcome generation
   
   # Blip
   gamma2=A2*(psi0+psi1*X2+psi2*A1)
@@ -70,7 +70,7 @@ output_unsharedq=function(scene,sample,n){
   psi21=rep(0,sample)
   psi22=rep(0,sample)
   
-  # Loop through all the samples, and calcualte estimate for each sample.
+  # Loop through all the samples, and calculate estimate for each sample.
   for(i in 1:sample){
 
     # Using a pre-fixed sequence for the random seeds to ensure the same estimates each time running this script.
@@ -222,7 +222,7 @@ output_unsharedg=function(scene,sample,n){
   psi21=rep(0,sample)
   psi22=rep(0,sample)
   
-  # Loop through all samples, and calcualte estimate for each sample.
+  # Loop through all samples, and calculate estimate for each sample.
   for(i in 1:sample){
     
     # Using a pre-fixed sequence for the random seeds to ensure the same estimates each time running this script.
