@@ -81,7 +81,7 @@ output_unsharedq=function(scene,sample,n){
     # Generate the simulated data with size n.
     sim.data=dta_gen(n)
     
-    # Extract variables from simluated data
+    # Extract variables from simulated data
     X1=sim.data$X1
     X2=sim.data$X2
     A1=sim.data$A1
@@ -233,7 +233,7 @@ output_unsharedg=function(scene,sample,n){
     # Generate the simulated data with size n.
     sim.data=dta_gen(n)
     
-    # Extract variables from simluated data.
+    # Extract variables from simulated data.
     X1=sim.data$X1
     X2=sim.data$X2
     A1=sim.data$A1
