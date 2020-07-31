@@ -1,5 +1,7 @@
+# This script has functions of data gereration, unshared q-learning, shared q-learning, unshared g-estimation and shared g-estimation.
+
 rm(list=ls())
-  
+
 # Install "DTRreg" package for unshared Q-learning and G-estimation
 if(!"DTRreg" %in% installed.packages()){
   install.packages("DTRreg")
